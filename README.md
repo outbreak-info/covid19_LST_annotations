@@ -2,7 +2,7 @@
 
 This is the parser for the COVID-19 Literature Surveillance Team reports.  The COVID-19 Literature Surveillance Team is a group of MDs, PhDs, Medical Students and Residents who summarize and evaluate recent publications on COVID-19. They use the Bottom Line Up Front (BLUF) standard for their summaries and the 2011 Oxford level of evidence rubric for evaluating level of evidence.
 
-This parser generates the metadata records for each report in the COVID-19 LST google drive. It also creates value added information to be appended to existing publication metadata records.
+This parser creates value added information to be appended to existing publication metadata records.
 
 Note that the COVID-19 LST team provides two different types of data, which will be parsed on different schedules which is why the initial script has been split into to two.
 
