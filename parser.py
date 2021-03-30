@@ -186,7 +186,7 @@ def run_loe_update():
     download_dumps(dumpdf)
     datadmp = update_filelist()
     dictlist = generate_dump(datadmp)
-    for eachdict in dictlist:
-        yield(eachdict)
+    with open('results/loe_annotations.json', 'w', encoding='utf-8') as f:
+        f.write(json.dumps(dictlist, indent=4))
        
  
