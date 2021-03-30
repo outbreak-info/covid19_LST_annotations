@@ -18,7 +18,7 @@ except ImportError:
 
 class LSTUploader(biothings.hub.dataload.uploader.BaseSourceUploader):
 
-    main_source="covid19_LST_annotations"
+    main_source="litcovid"
     name = "covid19_LST_annotations"
     __metadata__ = {
         "src_meta": {
