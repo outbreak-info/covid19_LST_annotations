@@ -182,8 +182,8 @@ def generate_dump(datadmp):
     return(cleandata)
 
 def run_loe_update():
-    dumpdf = check_google()
-    download_dumps(dumpdf)
+    #dumpdf = check_google()
+    #download_dumps(dumpdf)
     datadmp = update_filelist()
     dictlist = generate_dump(datadmp)
     with open('results/loe_annotations.json', 'w', encoding='utf-8') as f:
