@@ -11,7 +11,7 @@ import requests
 def generate_curator():
     todate = datetime.now()
     curatedByObject = {"@type": "Organization", "identifier": "covid19LST", "url": "https://www.covid19lst.org/", 
-                              "name": "COVID-19 Literature Surveillance Team", "affiliation": "", 
+                              "name": "COVID-19 Literature Surveillance Team", 
                               "curationDate": todate.strftime("%Y-%m-%d")}
     return(curatedByObject)
 
@@ -182,8 +182,8 @@ def generate_dump(datadmp):
     return(cleandata)
 
 def run_loe_update():
-    dumpdf = check_google()
-    download_dumps(dumpdf)
+    #dumpdf = check_google()
+    #download_dumps(dumpdf)
     datadmp = update_filelist()
     dictlist = generate_dump(datadmp)
     for eachdict in dictlist:
