@@ -7,3 +7,5 @@ This parser creates value added information to be appended to existing publicati
 Note that the COVID-19 LST team provides two different types of data, which will be parsed on different schedules which is why the initial script has been split into to two.
 
 This repo is for the annotations provided by the COVID-19 Literature Surveillance team to be added to individual pmids from lit covid.  The update of the annotations file should be run on a weekly basis (as we will recieve weekly dumps), but the inclusion of the annotations to pmid metadata records should be run daily (as they will be erased after each litcovid update)
+
+Update 12/2021 - As of July 2021, COVID-19 LST will no longer provide updates. Hence, this repo will primarily serve as a home for existing parsed data.
